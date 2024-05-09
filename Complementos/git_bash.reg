@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_shell]
+@="Open Git Bash Here"
+"Icon"="C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_shell\command]
+@="\"C:\\Program Files\\Git\\bin\\bash.exe\" --login -i -c \"cd \\\"%V\\\" && exec /bin/bash\""
+
+
+***************************************************************************
+Guarda este archivo con una extensión ".reg", por ejemplo, "git_bash.reg".
+Haz doble clic en el archivo ".reg" que acabas de crear 
+y sigue las instrucciones para agregar la entrada del registro.
+Después de agregar la entrada del registro, verifica si la opción 
+"Abrir la consola de Git Bash aquí" aparece en el menú contextual.
+***************************************************************************
