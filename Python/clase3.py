@@ -27,3 +27,9 @@
 # paises.remove("chile") #Tira error porque chile no esta en el set.
 
 # print(paises)
+
+
+######################### 4- Sets-Dicts-2
+datos = {"nombre":input("ingresa tu nombre:"), "edad":input("ingresa tu edad:"), "direccion":input("ingresa tu direccion:")}
+
+print(datos["nombre"], "tiene",datos["edad"], "Años y vive en",datos["direccion"])
