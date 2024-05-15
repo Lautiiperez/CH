@@ -10,7 +10,20 @@
 # print(colores)
 
 
-######################### 2- Dicts
-copa_fifa = {1990:"alemania", 1994:"brasil", 1998:"francia", 2002:"brasil", 2006:"italia", 2010:"españa", 2014:"alemania", 2018:"francia"}
+# ######################### 2- Dicts
+# copa_fifa = {1990:"alemania", 1994:"brasil", 1998:"francia", 2002:"brasil", 2006:"italia", 2010:"españa", 2014:"alemania", 2018:"francia"}
 
-print(copa_fifa)
+# print(copa_fifa)
+
+
+# ######################### 3- Sets-Dicts
+# paises = {"inglaterra", "usa", "mexico"}
+
+# paises.update(["islandia", "italia", "argentina", "portugal", "usa"])
+# #No agrega a usa porque ya estaba dentro
+# print(paises)
+
+# paises.discard("italia")
+# paises.remove("chile") #Tira error porque chile no esta en el set.
+
+# print(paises)
