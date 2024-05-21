@@ -5,17 +5,15 @@ Troop&strawberry menea la cabeza como disgustado...
 
 texto = texto.replace('curva&strawberry', 'curva... \n- Strawberry')
 texto = texto.replace("gordon", "Gordon")
-texto = texto.replace("Castiglione&dos", "Castiglione. - Dos")
-texto = texto.replace("Troop&strawberry", "Troop. - Strawberry")
+texto = texto.replace("Castiglione&dos", "Castiglione. \n- Dos")
+texto = texto.replace("Troop&strawberry", "Troop. \n- Strawberry")
 
 texto2 = list(texto)
 
 texto2[61]=' '
-texto2[85]='\n'
-texto2[97]=''
-texto2[109]=' '
-texto2[116]='\n'
-texto2[164]=' '
+texto2[98]=''
+texto2[110]=' '
+texto2[166]=''
 texto2[-1]='a.'
 
 texto = ''.join(texto2)
