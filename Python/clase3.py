@@ -1,25 +1,36 @@
-######################### 1- Colecciones 1
-texto = """gordon lanzo su curva&strawberry ha fallado por un pie!
--grito Joe Castiglione&dos pies -le corrigio
-Troop&strawberry menea la cabeza como disgustado...
--agrega el comentarista"""
+# ######################### 1- Sets
+# colores = {"rojo", "blanco", "azul"}
 
-texto = texto.replace('curva&strawberry', 'curva... \n- Strawberry')
-texto = texto.replace("gordon", "Gordon")
-texto = texto.replace("Castiglione&dos", "Castiglione. - Dos")
-texto = texto.replace("Troop&strawberry", "Troop. - Strawberry")
+# colores.update(["violeta", "dorado"])
 
-texto2 = list(texto)
+# colores.discard("blanco")
+# colores.remove("dorado")
+# colores.discard("celeste")
 
-texto2[61]=' '
-texto2[85]='\n'
-texto2[97]=''
-texto2[109]=' '
-texto2[116]='\n'
-texto2[164]=' '
-texto2[-1]='a.'
-
-texto = ''.join(texto2)
+# print(colores)
 
 
-print(texto)
+# ######################### 2- Dicts
+# copa_fifa = {1990:"alemania", 1994:"brasil", 1998:"francia", 2002:"brasil", 2006:"italia", 2010:"españa", 2014:"alemania", 2018:"francia"}
+
+# print(copa_fifa)
+
+
+# ######################### 3- Sets-Dicts
+# paises = {"inglaterra", "usa", "mexico"}
+
+# paises.update(["islandia", "italia", "argentina", "portugal", "usa"])
+# #No agrega a usa porque ya estaba dentro
+# print(paises)
+
+# paises.discard("italia")
+# paises.remove("chile") #Tira error porque chile no esta en el set.
+
+# print(paises)
+
+
+# ######################### 4- Sets-Dicts-2
+# datos = {"nombre":input("ingresa tu nombre:"), "edad":input("ingresa tu edad:"), "direccion":input("ingresa tu direccion:")}
+
+# print(datos["nombre"], "tiene",datos["edad"], "Años y vive en",datos["direccion"])
+
