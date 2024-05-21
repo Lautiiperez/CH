@@ -14,7 +14,7 @@ texto2[61]=' '
 texto2[98]=''
 texto2[110]=' '
 texto2[166]=''
-texto2[-1]='a.'
+texto2 +='.'
 
 texto = ''.join(texto2)
 
