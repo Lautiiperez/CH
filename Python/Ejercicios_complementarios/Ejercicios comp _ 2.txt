@@ -1,0 +1,685 @@
+Guía de ejercicios complementarios
+Python
+Editar: nombre del curso
+
+¿Qué es?
+ 
+La Guía fue creada para que puedas focalizar en reforzar y afianzar, potenciar y poner en práctica los saberes adquiridos en clase. No tiene corrección ni los ejercicios serán evaluados dentro de las entregas.
+
+¡A practicar! 😉
+
+
+Nota: Te recomendamos que descargues el archivo para que lo puedas editar
+
+
+
+Sobre los ejercicios
+Ejercicios: son propuestas de ejercitación práctica complementaria, basadas en problemáticas comunes del desarrollo de aplicaciones. Algunas consignas son específicas, pero otras son un poco más abiertas, con la intención de familiarizarnos con formatos narrativos en la solicitud de funcionalidades a programar.
+Notas:  hay ejercicios que presentan una nota, la cual nos brinda más información o tips para desarrollarlo 
+(nota: modo hardcore hacerlo sin leer las notas).
+Resoluciones propuestas: encontrarás las resoluciones para que las compares con tus propias soluciones. Es propuesta porque no es perfecta, en desarrollo de software ninguna solución es infalible, y mucho depende del contexto, por lo cual si tu resolución presenta una funcionalidad  similar o mejor a la propuesta ¡felicidades, resolviste el ejercicio!. 
+Repositorio en GitHub: Podrás encontrar las resoluciones alojadas en GitHub.
+Podemos identificar los elementos en:
+
+Números, cadenas de caracteres, listas y tuplas
+Guía complementaria - Parte 1
+Obligatoria siempre
+
+Actividad 1
+Calculadora base
+Escribe un programa que solicite al usuario dos números enteros. Luego, muestra por pantalla la suma, resta, multiplicación y división de esos dos números.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+Los últimos caracteres ríen mejor
+Crea un programa que tome una cadena de texto como entrada del usuario. Luego, muestra por pantalla los primeros tres caracteres de la cadena, seguidos por los tres últimos caracteres. Además, concatena ambos subconjuntos y muestra el resultado.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 3
+Aclaraciones
+
+Corrobora que el índice que solicitas al usuario no exceda los índices que maneja la lista de números enteros.
+La lista de números inicial es a elección del programador
+Actividad 3
+Cambio manual
+Crea un programa que inicie con una lista de números enteros. Luego, solicita al usuario un número entero y un índice para reemplazar un elemento en la lista por el nuevo número ingresado en el índice ingresado. 
+Imprime la lista resultante.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 4
+Aclaraciones
+
+Ten en cuenta que la primera aparición sería la posición 1 de la tupla, por lo cual deberíamos buscar el índice de la siguiente aparición.
+Actividad 4
+¿Cuánto y dónde?
+Crea un programa que, teniendo en cuenta la siguiente tupla, muestre el valor del segundo elemento de la misma. Además, debe mostrar cuántas veces se repite este valor y cuál es el índice del valor repetido.
+
+palabras_tupla = ("manzana", "pera", "uva", "naranja", "sandía", "manzana", "plátano", "kiwi", "pera", "fresa", "mango", "uva", "cereza", "manzana", "durazno")
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Actividad 2
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Actividad 4
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Conjuntos, diccionarios y métodos de colecciones
+Guía complementaria - Parte 2
+Obligatoria siempre
+
+Notas actividad 1
+Aclaraciones
+
+Para separar los nombres recuerda que puedes utilizar split.
+Actividad 1
+Nombres únicos
+Crea un programa que solicite al usuario ingresar nombres separados por comas. Luego, crea un conjunto con los nombres ingresados y muestra por pantalla la cantidad de nombres únicos en el conjunto.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+Actualizando la tienda
+Crea un programa que simule un inventario de productos en una tienda. Inicia con un diccionario que contenga algunos productos y sus cantidades. Luego, permite al usuario agregar un nuevo producto con su cantidad y actualizar la cantidad de un producto existente. Muestra el inventario actualizado.
+
+Productos y cantidades:
+Manzanas => 50
+Bananas => 30
+Peras => 40
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Python uno, Python dos, Python 3...
+Crea un programa que tome una oración ingresada por el usuario y realice las siguientes operaciones: convierte la oración a mayúsculas, cuenta cuántas veces aparece la palabra "python", y muestra la oración sin espacios en blanco al inicio y al final.
+
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 4
+Aclaraciones
+
+Recuerda el uso de split para separar valores de un string.
+Actividad 4
+Intersectando y uniendo
+Crea dos conjuntos con números ingresados por el usuario y separados por coma. 
+Luego, muestra cuáles elementos tienen en común los conjuntos y crea un nuevo conjunto que contenga la unión de ambos.
+
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Actividad 2
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Actividad 4
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Operadores básicos, expresiones anidadas y controladores de flujo
+Guía complementaria - Parte 3
+Obligatoria siempre
+
+Actividad 1
+Paresitos
+Crea un programa que solicite dos números enteros al usuario y determine si ambos son números pares.
+.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+x 3, x 5
+Escribe un programa que tome un número entero ingresado por el usuario y determine si es un número par, divisible por 3 y 5 al mismo tiempo, o ninguno de los anteriores.
+.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+¡Positivo! ¿Par sí o par no?
+
+Crea un programa que solicite un número entero al usuario y determine si es un número negativo, positivo o igual a cero. En caso de ser positivo, verifica si es par o impar.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 4
+Alineando la condicional
+Escribe un programa que tome un número entero ingresado por el usuario y muestre "Es positivo" si el número es mayor que cero, de lo contrario, muestra "No es positivo".
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Actividad 2
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Actividad 4
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Controladores de flujo II
+Guía complementaria - Parte 4
+Obligatoria siempre
+
+Notas actividad 1
+Aclaraciones
+
+En este ejercicio deberás utilizar 2 bucles anidados. Uno para todo y el otro para la generación de la tabla.
+Actividad 1
+Hay tabla
+Escribe un programa que tome un número entero positivo ingresado por el usuario y muestre la tabla de multiplicar de ese número. Repite la solicitud al usuario de ingresar un nuevo número hasta que ingrese un cero.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 2
+Aclaraciones
+
+Recuerda usar el split para separar un string. También ten presente la funcionalidad enumerate.
+Actividad 2
+Ubica la palabra
+Escribe un programa que tome una lista de nombres ingresados por el usuario separados por un espacio y los liste mostrando su ubicacion.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 3
+Aclaraciones
+
+Podemos utilizar el operador ‘in’ para corroborar si tiene vocales o no 😉
+Actividad 3
+¿Vocales perdidas?
+Crea un programa que solicite al usuario ingresar una palabra. Luego, recorre la palabra y cuenta cuántas vocales contiene. Al final, si no se encontraron vocales, muestra un mensaje comunicando que la palabra ingresada solo contiene consonantes.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 4
+Aclaraciones
+
+Recuerda usar slice para cortar un string.
+Actividad 4
+Salteando palabras
+Escribe un programa que tome una lista de palabras ingresadas por el usuario. Luego, que muestre cada palabra una por una. Si la palabra es "salir", finaliza el programa. Si la palabra es "omitir", se pasa a la siguiente iteración. Al final, si ninguna palabra fue "salir", muestra un mensaje avisando la situación.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 5
+Inventario
+Imagina que estás administrando un pequeño almacén y deseas realizar un seguimiento de los productos en tu inventario. Escribe un programa que te permita ingresar el nombre y la cantidad de varios productos. Utiliza un bucle para recorrer los productos y mostrar su nombre y cantidad. Al final, muestra el total de productos en el inventario.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Actividad 2
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Actividad 4
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 5
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Funciones
+Guía complementaria - Parte 5
+Obligatoria siempre
+
+Notas actividad 1
+Aclaraciones
+
+Utiliza una lista y funciones separadas para gestionar las tareas.
+Actividad 1
+Gestión de tareas pendientes
+Crea un programa que permita a un usuario llevar un registro de tareas pendientes. El programa debe:
+Permitir al usuario agregar tareas.
+Marcar tareas como completadas. agregámdole un tilde o algo que identifique que se completó al principio de la tarea.
+Listar las tareas pendientes. 
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 2
+Aclaraciones
+
+Utiliza un diccionario para gestionar los contactos y funciones separadas para realizar estas acciones.
+Actividad 2
+Contactame
+
+Desarrolla un programa que permita a un usuario registrar información de contactos (nombre, número de teléfono y correo electrónico). El programa debe almacenar estos contactos y permitir al usuario buscar contactos por nombre o número de teléfono. 
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 3
+Aclaraciones
+
+Utiliza kwargs como parámetro de la función permitiendote pasar cualquier llave-valor a la función.
+Actividad 3
+Red de computadora
+Crea un programa que permita a un usuario configurar la red de una computadora. El programa debe aceptar argumentos clave para configurar la dirección IP, la máscara de subred y la puerta de enlace. Luego, muestra la configuración de red completa.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 4
+Aclaraciones
+
+Deberán utilizar *args como parametro para que se permita el número variado de notas.
+Actividad 4
+Tu promedio
+
+Crea un programa que permita calcular el promedio de un número variable de notas ingresadas por el usuario. La función calcular_promedio puede recibir un número variable de notas. 
+Luego, muestra el promedio de las notas ingresadas.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+Actividad 3
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 4
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Excepciones y POO
+Guía complementaria - Parte 6
+Obligatoria siempre
+
+Actividad 1
+Búsqueda del error
+
+Desarrolla un programa que permita al usuario buscar información sobre ciudades. Tendrás un diccionario llamado ciudades_info que contiene información sobre algunas ciudades, como su país, población y puntos de interés. El programa debe permitir al usuario ingresar el nombre de una ciudad y mostrar la información correspondiente. El programa debe poder manejar el caso en el que la ciudad no existe en el diccionario y mostrando un mensaje avisando del error.
+ciudades_info = {
+    'Paris': {
+        'Pais': 'Francia',
+        'Poblacion': 2187526,
+        'Puntos_de_Interes': ['Torre Eiffel', 'Louvre', 'Catedral de Notre-Dame']
+    },
+    'Nueva York': {
+        'Pais': 'Estados Unidos',
+        'Poblacion': 8398748,
+        'Puntos_de_Interes': ['Estatua de la Libertad', 'Central Park', 'Times Square']
+    },
+    'Tokio': {
+        'Pais': 'Japón',
+        'Poblacion': 13929286,
+        'Puntos_de_Interes': ['Torre de Tokio', 'Templo Senso-ji', 'Palacio Imperial']
+    }
+}
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+
+
+
+La función raise se utiliza para generar manualmente una excepción en Python. Puedes especificar el tipo de excepción que deseas generar y opcionalmente proporcionar un mensaje de error personalizado. Por ejemplo:
+```
+# Generar una excepción ValueError con un mensaje personalizado
+raise ValueError("Este es un mensaje de error personalizado.")
+```
+En el ejemplo anterior, se genera una excepción ValueError con el mensaje "Este es un mensaje de error personalizado." Esta funcionalidad puede ser útil cuando deseas controlar el flujo de tu programa y generar excepciones específicas en función de condiciones personalizadas.
+Actividad 2
+Edad correcta
+Escribe un programa que permita al usuario ingresar su edad. El programa debe validar si la edad ingresada está dentro del rango de 18 a 65 años, y mostrar un mensaje correspondiente. Utiliza un bloque try-except con múltiples bloques except para manejar posibles errores relacionados con la entrada del usuario, como una entrada no numérica o una edad fuera del rango válido.
+Tip: puedes usar la funcionalidad 'raise' para que se genere una excepción.
+Notas actividad 2
+Aclaraciones
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 3
+Aclaraciones
+
+Utiliza un bloque try-except con varios bloques except para manejar estos errores y mostrar mensajes de error específicos en cada caso. Ten en cuenta el uso de la instrucción raise comentada en la actividad anterior de ser necesario su uso.
+Actividad 3
+Estamos de oferta
+Escribe un programa que permita al usuario ingresar el precio de un producto y un código de descuento. El programa debe validar si el precio es un número positivo y si el código de descuento es válido. Los errores posibles incluyen entradas no numéricas, números negativos y códigos de descuento no válidos. 
+
+Los codigos de descuento son:
+ descuentos_validos = ["DESC10", "DESC20", "DESC30"]
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Actividad 2
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+POO II y Herencia
+Guía complementaria - Parte 7
+Obligatoria siempre
+
+Actividad 1
+Figuras
+Define una clase Figura con un método de instancia area que devuelve el área de la figura. Luego, crea clases hijas como Circulo y Rectangulo que hereden de Figura y proporcionen implementaciones diferentes del método area.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+Calculadora POO
+Crea una clase Calculadora con un método de clase llamado suma que acepte dos números como argumentos y devuelva la suma de ellos. Luego, utiliza este método para realizar algunas operaciones de suma.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 3
+Aclaraciones
+
+Recuerda utilizar el super para ejecutar el init de una clase padre.
+Actividad 3
+Gestión de empleados
+Crea una clase Empleado que tenga los siguientes atributos de instancia: nombre, apellido, edad, salario. Luego, crea una clase Gerente que herede de Empleado y tenga un atributo adicional departamento. Define métodos de instancia para ambas clases, como mostrar_informacion para mostrar los detalles de un empleado y aumentar_salario para aumentar el salario de un empleado en un porcentaje dado. Crea instancias de ambas clases y realiza algunas operaciones.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Notas actividad 4
+Aclaraciones
+
+Para modificar un atributo de clase podes hacer lo siguiente:
+
+Casa.atributo_de_clase = ‘prueba’
+
+En este ejemplo se toma Casa como la clase y el atributo atributo_de_clase, donde se guarda un string (esto puede hacerse desde los metodos.)
+Actividad 4
+La biblioteca
+Crea una clase Libro con atributos de instancia como titulo, autor, año_publicacion, y disponible (un valor booleano que indica si el libro está disponible o no). Luego, crea una clase Biblioteca que tenga una lista de libros y métodos de instancia para prestar un libro, devolver un libro y mostrar todos los libros disponibles. Utiliza atributos de clase para registrar la cantidad total de libros en la biblioteca. Crea instancias de ambas clases y realiza operaciones de préstamo y devolución de libros.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 5
+Tienda en línea
+Crea una clase Producto con atributos de instancia como nombre, precio, cantidad_disponible y codigo_producto. Luego, crea una clase CarritoCompras que permita a los clientes agregar productos, eliminar productos y calcular el total de la compra. Utiliza un atributo de clase para rastrear la cantidad total de productos en el carrito de compras de todos los clientes. Crea instancias de ambas clases y simula operaciones de compra.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Actividad 2
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 4
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 5
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Scripts, módulos, paquetes y manejo de archivos
+Guía complementaria - Parte 8
+Obligatoria siempre
+
+Actividad 1
+Registrando gastos
+
+Escribe un programa en Python que permita a un usuario registrar sus gastos diarios en un archivo de texto llamado "gastos.txt". El programa debe permitir al usuario ingresar la descripción del gasto y la cantidad gastada. Luego, debe guardar estos datos en el archivo en el siguiente formato:
+
+"Fecha: {fecha} - Descripción: {descripción} - Cantidad: {cantidad}"
+
+Donde fecha es la fecha actual y descripción y cantidad son los datos ingresados por el usuario.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+Gestión de tareas pendientes (Con persistencia de datos)
+Basándonos en el ejercicio 1 de funciones, edita el código para que
+el programa guarde el listado de tareas en un json al terminar la ejecución del programa y
+lo recupere al iniciarse el mismo.
+Notas actividad 2
+Aclaraciones
+
+Ten en cuenta que el modo read del open genera un error al querer abrir un archivo que no existe.
+ Y, a diferencia del read en los txt, el json.load también genera un error si el archivo no tiene nada.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Registro de calificaciones
+
+Escribe un programa que permita a un profesor registrar las calificaciones de sus estudiantes en un archivo json llamado "calificaciones.json".
+El programa debe permitir al profesor ingresar nombres de estudiantes y sus calificaciones. Luego, debe guardar estos datos en el archivo cuando termine el programa para
+persistir estos datos para futuras ejecuciones del programa. Utilizar los nombres de los alumnos como claves y las notas como valores.
+Notas actividad 3
+Aclaraciones
+
+Ten en cuenta que el modo read del open genera un error al querer abrir un archivo que no existe.
+ Y, a diferencia del read en los txt, el json.load también genera un error si el archivo no tiene nada.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 4
+Metiendo a la bolsa
+
+Con las funciones de los ejercicios anteriores, sepáralas en 2 o más módulos y
+genera un paquete que incluya estos módulos.
+Notas actividad 4
+Aclaraciones
+
+Recuerda que en los módulos deben ir solo código que sea de definición y, en caso de
+querer agregar código de ejecución en alguno de los módulos, debe agregarse dentro de la siguiente condicional
+
+if __name__ == '__main__':
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Actividad 4
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Git, GitHub y Django
+Guía complementaria - Parte 9
+Obligatoria siempre
+
+Actividad 1
+Repasemos Git
+
+Sigamos las siguientes instrucciones para practicar un poco el uso de git…
+
+1. Crea una carpeta nueva y abrirla para trabajar en ella.
+2. Inicializa un repositorio de git.
+3. Crea una rama por cada parte de la guía, hasta la parte 8 inclusive, de ejercicios en esta guía (parte1, parte2, parte3, etc).
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+4. Por cada rama de las partes, seguir los siguientes pasos:
+Crear una carpeta con el nombre de la rama.
+Dentro de la carpeta crear para la actividad 1 un archivo que contenga la resolución y luego hacer un commit con el mensaje “Actividad 1”.
+Repetir el punto anterior para las actividades restantes.
+5. Luego, volver a la rama principal (master o main, depende como lo tengan configurado) y hacer un merge por cada una de las ramas de las partes.
+6. Por último, hacer un push a un repositorio creado en github.
+
+Con esto dejaremos todo lo que tenía cada rama (cada carpeta de actividades) en la rama principal.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+A partir de la siguiente actividad, cada parte tiene su propia rama con las actividades resueltas. Esto se maneja de esta forma, debido a que haremos un proyecto de django repasando todo lo visto en clases y con el manejo de ramas se puede ir viendo el progreso escalonado delimitado, por lo que van solicitando las actividades.
+Contenido destacado
+PARA RECORDAR
+[Optativa: Utilizar esta slides en caso de que se requiera destacar algún contenido. Señalar en “Notas al orador” la duración (en minutos) que se sugiere para el momento de exposición teniendo en cuenta que el foco de las clases  es la práctica]
+
+Profe:  Para esta instancia te sugerimos utilizar (cantidad) de minutos.
+
+
+Actividad 2
+Repaso creación de proyecto
+
+Crea un proyecto de Django siguiendo los pasos vistos en clase.
+
+Este proyecto deberá contar con 2 vistas:
+1. La primera deberá enviar por HttpResponse un string que indique en qué año aproximadamente nació una persona si le pasamos por la url la edad (para revisar si un string es solo numérico se puede usar el método .isnumeric() de los strings que devuelve True en caso de que sean solo números).
+2. La segunda solo requerirá que en lugar de pasarle un string como argumento al HttpResponse se le pase un template en el cual se mostrará un mensaje que diga "Bienvenidos".
+La url de acceso deberá ser 'bienvenida/'.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Actividad 2
+Esta actividad puede ser guiada revisando los commits de la rama master o pasándose a las diferentes ramas de las partes específicas. Esto es debido a que se siguió los mismos pasos para armar este repositorio así lo tienen como guía.
+
+Punto 1 : Disponible aquí
+
+Punto 2 : Disponible aquí
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Portfolio y Playground intermedio parte I
+Guía complementaria - Parte 10
+Obligatoria siempre
+
+Actividad 1
+Trabajemos con apps
+A partir de este punto las actividades siguientes se centrarán en la modificación y mejora del proyecto que se arrancó en la actividad 2 de la ejercitación de Git, GitHub y Django.
+Teniendo esto en cuenta, realiza las siguientes modificaciones:
+1. Crea una app 'inicio' a la cual le trasladaremos las vistas creadas en la actividad pasada. Recuerda modificar el setting.py para que nuestro proyecto reconozca la app creada. (una vez trasladadas las vistas eliminar el archivo views.py que quedo vacío)
+2. Genera el archivo urls.py para nuestra app y agrega el código correspondiente en el urls.py que se encuentra con el settings.py para que se conecte al urls.py de nuestra app (uso de la funcionalidad "include" ).
+3. Cambia la carga actual de templates en las vistas por el uso de render (el shortcut). Cambia la ubicación de los templates para que estén dentro de la app que le corresponda.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+Usemos un template predefinido
+Busca en starbootstrap un template que te guste, descárgalo e impleméntalo (con los cambios que sientas necesario en el HTML) en el proyecto en una vista llamada inicio dentro de la app inicio.
+Para esta vista define el path de la url vacío.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Guardo y muestro
+1. Crear un modelo que cuente con 3 atributos: nombre(charfield), edad(integerfield) y fecha(datefield). Para este modelo agrega una vista que tome por url 2 parámetros, uno para el charfield, otro para el integerfield y el datefield lo rellenaremos con la fecha del momento cuando se crea. Teniendo estos datos en la vista, genera un objeto para guardarlo en la base de datos y, también, para pasarlo por contexto a un template que crearemos.
+2. El template del punto anterior deberá mostrar nombre y edad. Además, en caso que el dia del campo fecha sea mayor a 15 se deberá mostrar en un listado cada letra del nombre.
+
+Recordatorio: Una vez creado un modelo ejecutar el comando makemigrations y luego migrate para que se plasme la creación del modelo en la bd.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Parte 1: Disponible aquí
+Parte 2: Disponible aquí
+Parte 3: Disponible aquí
+Actividad 2
+Disponible aquí
+Actividad 3
+Parte 1: Disponible aquí
+Parte 2: Disponible aquí
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Playground Intermedio parte II
+Guía complementaria - Parte 11
+Obligatoria siempre
+
+Actividad 1
+Figuras formularios y listado
+Crea un nuevo modelo Paleta con 4 atributos: marca(charfield), modelo(charfield), anio(integerfield), nueva(booleanfield). El modelo deberá tener una vista para el formulario de creación y otra para el listado de paletas creadas (esta última deberá incluir un formulario de búsqueda).
+
+Aviso: Los formularios de creación y búsqueda también deben crearse en esta actividad.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+Mejora de templates y panel de admin
+Acomoda los templates para que implementen herencia, mitigando la repetición de código. Además, acomoda en la barra de navegación el acceso a las vistas de 'inicio', 'crear_paleta' y 'buscar_paleta'.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Apartado admin
+
+Registra los modelos en el apartado de admin. Luego accede al mismo y prueba crear, modificar, ver, eliminar paletas. 
+Agrega en los modelos registrados el metodo magico `__str__` para que el listado del admin sea más legible.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Ejemplos de solución 
+Actividad 1
+Disponible aquí
+Actividad 2
+Disponible aquí
+Actividad 3
+Disponible aquí
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Playground avanzado parte I
+Guía complementaria - Parte 12
+Obligatoria siempre
+
+Actividad 1
+Edita y borra
+Al modelo paleta agrégale una vista para la actualizar datos y otra para eliminar paletas. (No utilizar Clases Basadas en Vistas)
+En este punto, modifica el nav de la app para que a la vista de creación se acceda desde la vista de búsqueda/listado y el acceso a actualizar o borrar estén en botones junto a cada paleta del listado.
+
+IMPORTANTE: Para no requerir validar en la vista de qué tipo tiene que ser el parámetro que se pasa por la url podemos en la url cuando definimos el nombre del parámetro, ejemplo `'paletas/editar/<paleta_id>/'`, indícale de qué tipo queremos que nuestra app detecte que va a ser, ejemplo `'paletas/editar/<int:paleta_id>/'`.
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+CBV
+Crea un nuevo modelo PelucheAnimal con 4 atributos: animal(charfield), altura(floatfield), fecha(datefield). El modelo deberá contar con una CBV para cada una de las siguientes funcionalidades: crear, listar (incluir el buscador), editar, eliminar y mostrar más detalles del mismo. 
+Recuerda registrar el modelo en el apartado de admin. 
+ 
+IMPORTANTE: En la CBV del listado se deben encontrar los accesos a todas las demás vistas, esta debe ser la única accesible desde la barra de navegación de la pagina.  
+
+EXTRA: Puedes crear otra app llamada peluche y aca contener todo lo relacionado a PelucheAnimal (y tal vez a futuro sobre peluches en general).
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Autenticación
+Agrégale al proyecto una nueva app llamada cuentas y luego:
+
+1. Agrega a cuentas un vista para el login (usar un formulario custom que pida el mail además de el usuario y la contraseña) y una vista para el logout.
+2. Ahora, una vista para que un usuario pueda registrarse en nuestra app.
+3. Agrega a las vistas de edición y borrado de los modelos creados hasta el momento (Paleta y PelucheAnimal) el decorador o mixin, según corresponda, para limitar el acceso estas funcionalidades a personas que no están logueadas.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 3
+Parte 1: Disponible aquí
+Parte 2: Disponible aquí
+Parte 3: Disponible aquí
+Actividad 2
+Disponible aquí
+Actividad 1
+Disponible aquí
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Playground avanzado parte II y próximos pasos en el mundo de la programación
+Guía complementaria - Parte 13
+Obligatoria siempre
+
+Actividad 1
+Más datos
+Teniendo en cuenta que pocos son los datos que podemos guardar de un usuario, crea un modelo que esté relacionado con User y permita guardar un avatar y algún dato extra sobre el usuario (ej, pagina, biografía, fecha de nacimiento, etc).
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 2
+El perfil
+
+Agrega un apartado donde el usuario pueda ver su información (nombre, apellido, avatar, etc) y que tenga un acceso a un apartado para modificar dicha información (también que se pueda modificar la contraseña).
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Actividad 3
+Ver y describir el peluche
+
+Agrégale al peluche animal un atributo para cargarle una imagen y una descripción, para esta última permitir que sea con formato de texto enriquecido. Ambos campos deben ser incluidos en todas las vistas relacionadas a peluche animal.
+
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
+
+Resoluciones
+
+Ejemplos de solución 
+Actividad 1
+Disponible aquí
+Actividad 2
+Disponible aquí
+Actividad 3
+Disponible aquí
+Usar para slides de texto e imagen. Si no alcanza, no sobrecargar, usar otra con el mismo título para indicar que continúa el mismo módulo.
