@@ -38,8 +38,8 @@
 # my_new_set = my_set_1.difference(my_set_2)
 # print(my_new_set)
 
-######################### 3- colecciones 3
-divisas = {'dolar':'$', 'euro':'€', 'libra':'£'}
-clave = input("Que moneda desea ver?")
+# ######################### 3- colecciones 3
+# divisas = {'dolar':'$', 'euro':'€', 'libra':'£'}
+# clave = input("Que moneda desea ver?")
 
-print(divisas.get(clave, "moneda no encontrada"))
+# print(divisas.get(clave, "moneda no encontrada"))
