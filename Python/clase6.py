@@ -29,4 +29,4 @@ if edad >=18 and antiguedad >= 3 and ingreso > 2500:
 elif edad >= 18 and ingreso >= 4000:
     print("Credito Aprobado por salario")
 else: 
-    print("Credito no Aproba  do")
+    print("Credito no Aprobado")
