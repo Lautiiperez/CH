@@ -21,7 +21,7 @@
 # ######################## 2-Credito Bancario
 
 # edad = int(input("Ingrese su edad: "))
-# antiguedad = int(input("Ingrese su Antiguedad en años: "))
+# antiguedad = int(input("Ingrese su Antiguedad en anios: "))
 # ingreso = int(input("Ingrese su salario en USD: "))
 
 # if edad >=18 and antiguedad >= 3 and ingreso > 2500:
@@ -31,14 +31,17 @@
 # else: 
 #     print("Credito no Aprobado")
 
-######################## 3-Marvel Vs. CapCom
-nombre = input("Ingrese su nombre: ").title()
-preferencia = input("Para Marvel ingresa: M\nPara CapCom ingresa: C\nCual prefieres?: ").upper()
+# ######################## 3-Marvel Vs. CapCom
+# nombre = input("Ingrese su nombre: ").title()
+# preferencia = input("Para Marvel ingresa: M\nPara CapCom ingresa: C\nCual prefieres?: ").upper()
 
-if (preferencia == "M" and nombre[0] <= "M") or (preferencia == "C" and  nombre[0] > "M"):
-    print(f"{nombre} Pertenece al grupo A")
-else:
-    print(f"{nombre} Pertenece al grupo B")
+# if preferencia == "M" or preferencia == "C":
+#     if (preferencia == "M" and nombre[0] <= "M") or (preferencia == "C" and  nombre[0] > "M"):
+#         print(f"{nombre} Pertenece al grupo A")
+#     else:
+#         print(f"{nombre} Pertenece al grupo B")
+# else: 
+#     print(f"{nombre} No ingresaste una opcion de preferencia correcta")
 
 # ######################### Ejercicio en clase
 # # Chequeamos si el usuario existe e imprimimos el resultado.
