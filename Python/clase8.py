@@ -22,9 +22,12 @@ num1 = int(input("Ingresa un numero: "))
 num2 = int(input("ingresa otro un numero: "))
 
 def es_multiplo(num1,num2):
+    respuesta = ""
     if (num1%num2) == 0:
-        print(num2,"es multiplo de ", num1)
+        respuesta = "es multiplo de"
     else:
-        print(num2,"NO es multiplo de ", num1)
+        respuesta = "NO es multiplo de "
+
+    return print(num2, respuesta, num1)
 
 es_multiplo(num1,num2)
