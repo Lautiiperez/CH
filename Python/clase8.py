@@ -17,17 +17,27 @@
 
 # media(numeros)
 
-######################## 3- Multiplo
-num1 = int(input("Ingresa un numero: "))
-num2 = int(input("ingresa otro un numero: "))
+# 
 
-def es_multiplo(num1,num2):
-    respuesta = ""
-    if (num1%num2) == 0:
-        respuesta = "es multiplo de"
+
+def mayor_de_edad():
+    resultado = ""
+    respuesta = input("Ingrese su edad: ")
+    edad = None
+    
+    if '.' in respuesta or ',' in respuesta:
+        resultado = "Ingrese una edad válida"
     else:
-        respuesta = "NO es multiplo de "
+        edad = int(respuesta)  
+    
+    if edad is not None:  
+        if edad <= 0:
+            resultado = "Ingrese una edad válida"
+        elif edad >= 18:
+            resultado = "Es mayor de edad"
+        else:
+            resultado = "No es mayor de edad"
+    
+    return resultado
 
-    return print(num2, respuesta, num1)
-
-es_multiplo(num1,num2)
+print(mayor_de_edad())
