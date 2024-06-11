@@ -1,7 +1,7 @@
-# Diccionario para almacenar usuarios
+# Diccionario para simular base de datos
 usuarios = {}
 
-# Función para validar la contraseña y el nombre de usuario
+# Función que valida la contraseña y usuario
 def validar_usuario_y_contrasena(usuario, contrasena):
     if len(usuario) < 4 or len(usuario) > 10:
         return False, "El nombre de usuario debe tener entre 4 y 10 caracteres."
@@ -13,7 +13,7 @@ def validar_usuario_y_contrasena(usuario, contrasena):
         return False, "La contraseña debe contener al menos un número."
     return True, ""
 
-# Función para registrar usuarios
+# Función que registra los usuarios
 def registrar_usuario(usuario, contrasena):
     valido, mensaje_error = validar_usuario_y_contrasena(usuario, contrasena)
     if not valido:
@@ -26,7 +26,7 @@ def registrar_usuario(usuario, contrasena):
         print(f"Usuario {usuario} registrado exitosamente.")
         guardar_usuarios()
 
-# Función para iniciar sesión
+# Función que inicia sesión
 def iniciar_sesion(usuario, contrasena=None):
     if usuario in usuarios:
         if contrasena is None:
@@ -44,13 +44,13 @@ def iniciar_sesion(usuario, contrasena=None):
         else:
             print("No se realizó ninguna acción.")
 
-# Función para guardar usuarios en un archivo de texto
+# Función que guarda los usuarios en un archivo de texto
 def guardar_usuarios():
     with open('usuarios.txt', 'w') as archivo:
         for usuario, contrasena in usuarios.items():
             archivo.write(f"{usuario}:{contrasena}\n")
 
-# Función para leer usuarios desde un archivo de texto
+# Función que lee los usuarios del archivo de texto
 def leer_usuarios():
     global usuarios
     try:
@@ -62,13 +62,13 @@ def leer_usuarios():
     except FileNotFoundError:
         print("No se encontró el archivo de usuarios. Creando uno nuevo...")
 
-# Función para mostrar usuarios registrados
+# Función que mustra los usuarios ya registrados
 def mostrar_usuarios():
     print("Usuarios registrados:")
     for usuario in usuarios.keys():
         print(usuario)
 
-# Función principal
+# Función principal (Menu)
 def main():
     while True:
         try:
