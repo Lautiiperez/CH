@@ -1,4 +1,4 @@
-from cliente import Cliente
+from Cliente import Cliente
 
 class Pedido:
     contador_pedidos = 0

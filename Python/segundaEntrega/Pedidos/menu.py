@@ -1,22 +1,22 @@
-import cliente
-import pedido
+from Cliente import Cliente
+from Pedido import Pedido
 
 def crear_cliente():
     nombre = input("Ingrese el nombre del cliente: ")
     email = input("Ingrese el correo electrónico del cliente: ")
     direccion = input("Ingrese la dirección del cliente: ")
     telefono = input("Ingrese el teléfono del cliente: ")
-    return cliente(nombre, email, direccion, telefono)
+    return Cliente(nombre, email, direccion, telefono)
 
 def crear_pedido(cliente):
-    id_pedido = pedido.contador_pedidos + 1
+    id_pedido = Pedido.contador_pedidos + 1  
     fecha_creacion = input("Ingrese la fecha de creación del pedido (dd/mm/yyyy): ")
     productos = input("Ingrese los productos del pedido separados por coma: ").split(',')
-    return pedido(id_pedido, fecha_creacion, cliente, productos)
+    return Pedido(id_pedido, fecha_creacion, cliente, productos)  
 
 def listar_clientes(clientes):
     for cliente in clientes.values():
-        print(cliente)
+        print(cliente.nombre, cliente.email, cliente.direccion, cliente.telefono)
 
 def listar_pedidos(clientes):
     for cliente_id, cliente in clientes.items():
