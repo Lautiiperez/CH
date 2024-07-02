@@ -1,0 +1,9 @@
+setup.py
+Pedidos/__init__.py
+Pedidos/cliente.py
+Pedidos/menu.py
+Pedidos/pedido.py
+pedidos.egg-info/PKG-INFO
+pedidos.egg-info/SOURCES.txt
+pedidos.egg-info/dependency_links.txt
+pedidos.egg-info/top_level.txt
