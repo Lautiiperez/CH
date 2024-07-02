@@ -6,5 +6,6 @@ setup(
     descripcion="Paquete segunda entrega",
     author="Lautaro Perez",
     author_email="perezlautaro@hotmail.com",
-    packages=["Pedidos"]
+    packages=["Pedidos"],
+    scripts=["Pedidos/menu.py"] 
     )
