@@ -1,5 +1,5 @@
-from Cliente import Cliente
-from Pedido import Pedido
+from Pedidos.cliente import Cliente
+from Pedidos.pedido import Pedido
 
 def crear_cliente():
     nombre = input("Ingrese el nombre del cliente: ")
