@@ -47,7 +47,10 @@ def main():
                 else:
                     print("Cliente no encontrado.")
         elif opcion == 3:
-            listar_clientes(clientes)
+            if not clientes:
+                print("No hay clientes creados aun.")
+            else:
+                listar_clientes(clientes)
         elif opcion == 4:
             listar_pedidos(clientes)
         elif opcion == 5:
