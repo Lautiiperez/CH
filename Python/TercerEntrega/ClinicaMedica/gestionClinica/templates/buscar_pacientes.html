@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h2>Búsqueda de Pacientes</h2>
+  <form method="get">
+    {% csrf_token %}
+    <input type="text" name="q" placeholder="Buscar por nombre...">
+    <button type="submit">Buscar</button>
+  </form>
+  {% if pacientes %}
+    <ul>
+      {% for paciente in pacientes %}
+        <li>{{ paciente.nombre }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No se encontraron pacientes.</p>
+  {% endif %}
+{% endblock %}

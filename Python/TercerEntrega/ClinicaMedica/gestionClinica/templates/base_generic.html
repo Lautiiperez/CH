@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Clinica Lautaro{% endblock %}</title>
+    <!-- Aquí puedes incluir CSS externo, favicons, etc. -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'insertar_paciente' %}">Insertar Paciente</a></li>
+                <li><a href="{% url 'insertar_medico' %}">Insertar Médico</a></li>
+                <li><a href="{% url 'insertar_cita' %}">Insertar Cita</a></li>
+                <li><a href="{% url 'buscar_pacientes' %}">Buscar Pacientes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        &copy; 2024 Clínica Médica Lautaro. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
