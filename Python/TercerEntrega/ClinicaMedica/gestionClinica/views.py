@@ -7,7 +7,7 @@ def insertar_paciente(request):
         form = PacienteForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('inicio')  # Considera redirigir a una página de éxito o a la lista de pacientes
+            return redirect('inicio')  # Redirige después de guardar
     else:
         form = PacienteForm()
     return render(request, 'insertar_paciente.html', {'form': form})
@@ -41,5 +41,5 @@ def buscar_pacientes(request):
     return render(request, 'buscar_pacientes.html', {'pacientes': pacientes})
 
 def inicio(request):
-    return render(request, 'inicio.html')
+    return render(request, 'gestionClinica/index.html') 
 
