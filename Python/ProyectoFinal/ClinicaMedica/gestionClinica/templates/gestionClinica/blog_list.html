@@ -1,0 +1,31 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h2>Listado de Publicaciones de Blog</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Título</th>
+        <th scope="col">Fecha de Publicación</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for post in object_list %}
+        <tr>
+          <td>{{ post.titulo }}</td>
+          <td>{{ post.fecha_publicacion }}</td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="2">No hay publicaciones disponibles.</td>
+        </tr>
+      {% endfor %}
+      {% if user.is_authenticated %}
+    <form action="{% url 'logout' %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Cerrar Sesión">
+    </form>
+{% endif %}
+    </tbody>
+  </table>
+{% endblock %}
