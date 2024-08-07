@@ -1,5 +1,6 @@
 {% extends "base_generic.html" %}
 
+
 {% block content %}
   <h2>Listado de Reseñas</h2>
   
@@ -11,6 +12,7 @@
         <th scope="col">Fecha de Publicación</th>
         <th scope="col">Titulo</th>
         <th scope="col">Reseña</th>
+        <th scope="col">Imagen</th>
       </thead>
       <tbody>
         {% for post in posts %}
@@ -19,6 +21,13 @@
           <td>{{ post.post_date }}</td>
           <td>{{ post.subtitle }}</td>
           <td>{{ post.content|truncatechars:100 }}</td>
+          <td>
+            {% if post.image %}
+              <img src="{{ post.image.url }}" alt="{{ post.title }}" width="100vw">
+            {% else %}
+              <p>No hay imagen disponible.</p>
+            {% endif %}
+          </td>
         </tr>
         {% empty %}
         <tr>

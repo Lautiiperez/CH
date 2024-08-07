@@ -1,8 +1,10 @@
+Lautaro Perez
+
 # Clínica Médica
 
 ## Descripción General
 
-La Clínica Médica es una plataforma web desarrollada con Django que permite a los usuarios gestionar citas médicas, consultas y seguimientos. Ofrece funcionalidades para administradores, médicos y pacientes, facilitando la comunicación y el acceso a servicios de salud.
+La Clínica Médica es una plataforma web desarrollada con Django que permite a los usuarios gestionar citas médicas, consultas y dejar reseñas. Ofrece funcionalidades para administradores, médicos y pacientes, facilitando la comunicación y el acceso a servicios de salud.
 
 ## Características Principales
 
