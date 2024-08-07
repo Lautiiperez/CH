@@ -1,5 +1,5 @@
 from django import forms
-from .models import Paciente, Medico, Cita
+from .models import Paciente, Medico, Cita, BlogPost
 
 class PacienteForm(forms.ModelForm):
     class Meta:
@@ -15,3 +15,8 @@ class CitaForm(forms.ModelForm):
     class Meta:
         model = Cita
         fields = ['paciente', 'medico', 'fecha', 'motivo']
+
+class BlogPostForm(forms.ModelForm):
+    class Meta:
+        model = BlogPost
+        fields = ['title', 'subtitle', 'content', 'image']

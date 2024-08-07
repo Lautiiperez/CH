@@ -1,7 +1,8 @@
 from django.shortcuts import render, redirect
-from .forms import PacienteForm, MedicoForm, CitaForm
+from .forms import PacienteForm, MedicoForm, CitaForm, BlogPostForm
 from .models import Paciente, BlogPost
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 
 def insertar_paciente(request):
@@ -47,7 +48,21 @@ def inicio(request):
 
 def blog_list(request):
     posts = BlogPost.objects.all().order_by('-post_date')
-    return render(request, 'gestionClinica/blog_list.html', {'posts': posts})
+    
+    if request.user.is_authenticated:
+        if request.method == 'POST':
+            form = BlogPostForm(request.POST, request.FILES)
+            if form.is_valid():
+                post = form.save(commit=False)
+                post.author = request.user
+                post.save()
+                return redirect('blog_list')  
+        else:
+            form = BlogPostForm()
+    else:
+        form = None
+    
+    return render(request, 'gestionClinica/blog_list.html', {'posts': posts, 'form': form})
 
 def register(request):
     if request.method == 'POST':

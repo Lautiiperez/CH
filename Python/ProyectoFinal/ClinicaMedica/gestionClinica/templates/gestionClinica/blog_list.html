@@ -1,31 +1,37 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-  <h2>Listado de Publicaciones de Blog</h2>
+  <h2>Listado de Reseñas</h2>
+  
+  
   <table class="table">
     <thead>
       <tr>
-        <th scope="col">Título</th>
+        <th scope="col">Profesional</th>
         <th scope="col">Fecha de Publicación</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for post in object_list %}
+        <th scope="col">Titulo</th>
+        <th scope="col">Reseña</th>
+      </thead>
+      <tbody>
+        {% for post in posts %}
         <tr>
-          <td>{{ post.titulo }}</td>
-          <td>{{ post.fecha_publicacion }}</td>
+          <td>{{ post.title }}</td>
+          <td>{{ post.post_date }}</td>
+          <td>{{ post.subtitle }}</td>
+          <td>{{ post.content|truncatechars:100 }}</td>
         </tr>
-      {% empty %}
+        {% empty %}
         <tr>
-          <td colspan="2">No hay publicaciones disponibles.</td>
+          <td colspan="3">No hay publicaciones disponibles.</td>
         </tr>
-      {% endfor %}
-      {% if user.is_authenticated %}
-    <form action="{% url 'logout' %}" method="post">
+        {% endfor %}
+      </tbody>
+    </table>
+    {% if form %}
+      <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        <input type="submit" value="Cerrar Sesión">
-    </form>
-{% endif %}
-    </tbody>
-  </table>
-{% endblock %}
+        {{ form.as_p }}
+        <button type="submit">Publicar Reseña</button>
+      </form>
+    {% endif %}
+    {% endblock %}

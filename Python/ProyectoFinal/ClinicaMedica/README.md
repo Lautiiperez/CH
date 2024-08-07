@@ -31,8 +31,8 @@ La Clínica Médica es una plataforma web desarrollada con Django que permite a 
 1. Clona el repositorio en tu máquina local usando Git:
 
    ```
-   git clone https://github.com/tu_usuario/clinica_medica.git
-   cd clinica_medica
+   git clone https://github.com/Lautiiperez/CH/tree/main/Python/ProyectoFinal/ClinicaMedica.git
+   cd ClinicaMedica
    ```
 
 ### Configuración del Entorno
